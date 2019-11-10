@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>Binding_Dynamizer</RootNamespace>
+    <StartupObject>Binding_Dynamizer.Program</StartupObject>
+    <Authors>Ahmet Sait</Authors>
+    <Company>Ahmet Sait</Company>
+    <Version>0.1.0</Version>
+    <Copyright>Copyright © 2019 Ahmet Sait</Copyright>
+    <Description>Converts D language static bindings into BindBC compatible dynamic ones.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE_1_0.txt</PackageLicenseFile>
+    <Product>Binding Dynamizer</Product>
+    <PackageId>Binding Dynamizer</PackageId>
+    <AssemblyName>binding-dynamizer</AssemblyName>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <SignAssembly>false</SignAssembly>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE_1_0.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
