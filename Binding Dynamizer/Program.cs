@@ -190,7 +190,7 @@ Options:
 				}
 				else if (!string.IsNullOrEmpty(match.Groups["module"].Value))
 				{
-					loaderList.Add("\n// " + match.Groups["module"].Value);
+					loaderList.Add("\nimport " + match.Groups["module"].Value + ";");
 				}
 				return match.Value;
 			}
