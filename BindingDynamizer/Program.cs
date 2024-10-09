@@ -12,7 +12,7 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Binding_Dynamizer
+namespace BindingDynamizer
 {
 	static class Program
 	{
@@ -20,7 +20,7 @@ namespace Binding_Dynamizer
 		static readonly string exeName = Path.GetFileNameWithoutExtension(Environment.GetCommandLineArgs()[0]);
 		static readonly string version = assemblyName.Version.ToString(3);
 
-		static readonly string versionText = "Binding Dynamizer v"+ version + " - Copyright © 2019 Ahmet Sait";
+		static readonly string versionText = "BindingDynamizer v"+ version + " - Copyright © 2019 Ahmet Sait";
 		#region Documentation
 		static readonly string helpText = versionText + @"
 
