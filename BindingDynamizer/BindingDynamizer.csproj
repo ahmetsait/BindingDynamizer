@@ -2,26 +2,18 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>BindingDynamizer</RootNamespace>
-    <StartupObject>BindingDynamizer.Program</StartupObject>
+    <TargetFramework>net8.0</TargetFramework>
     <Authors>Ahmet Sait</Authors>
-    <Company>Ahmet Sait</Company>
-    <Version>0.1.0</Version>
-    <Copyright>Copyright © 2019 Ahmet Sait</Copyright>
+    <Company>$(Authors)</Company>
+    <VersionPrefix>0.2.0</VersionPrefix>
+    <Copyright>Copyright © $(Company) $([System.DateTime]::Now.Year)</Copyright>
     <Description>Converts D language static bindings into BindBC compatible dynamic ones.</Description>
+    <PackageLicenseExpression>BSL-1.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE_1_0.txt</PackageLicenseFile>
     <Product>Binding Dynamizer</Product>
-    <PackageId>BindingDynamizer</PackageId>
     <AssemblyName>binding-dynamizer</AssemblyName>
-    <AssemblyVersion>0.1.0.0</AssemblyVersion>
-    <SignAssembly>false</SignAssembly>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
