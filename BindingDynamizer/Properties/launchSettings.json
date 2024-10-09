@@ -2,7 +2,7 @@
   "profiles": {
     "Binding Dynamizer": {
       "commandName": "Project",
-      "commandLineArgs": "-h"
+      "commandLineArgs": "-?"
     }
   }
 }
