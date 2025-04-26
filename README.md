@@ -1,6 +1,10 @@
-Binding Dynamizer
+<div align="center">
+
+Binding Dynamizer  
+[![Latest Release](https://img.shields.io/github/v/release/ahmetsait/BindingDynamizer)](https://github.com/ahmetsait/BindingDynamizer/releases/latest) [![Downloads](https://img.shields.io/github/downloads/ahmetsait/BindingDynamizer/total)](https://github.com/ahmetsait/BindingDynamizer/releases) [![License](https://img.shields.io/github/license/ahmetsait/BindingDynamizer)](LICENSE) [![Sponsor](https://img.shields.io/badge/Sponsor-black?logo=githubsponsors)](https://github.com/sponsors/ahmetsait)
 =================
-###### A command line tool for converting D language static bindings into BindBC compatible dynamic ones
+A command line tool for converting D language static bindings into BindBC compatible dynamic ones
+</div>
 
 Binding Dynamizer is a small helpful utility program that converts static bindings into dynamic BindBC style ones. It's a C# program that targets _.Net Core 3.0_ and works by doing a regex search-replace, so it's not as magical as you might think and the results require manual labor  although its usefulness is undeniable.
 
